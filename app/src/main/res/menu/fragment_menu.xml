@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/ana_sayfa"
+
+            android:title="Ana Sayfa" />
+        <item
+            android:id="@+id/sektor"
+
+            android:title="GARKOM SEKTÖR :" >
+            <menu>
+                <item
+                    android:id="@+id/garkom_turizm"
+                    android:title="GARKOM TURİZM"  />
+                <item
+                    android:id="@+id/garkom_hizmet"
+                    android:title="GARKOM HİZMET"/>
+                <item
+                    android:id="@+id/garkom_tarim"
+                    android:title="GARKOM TARIM"  />
+                <item
+                    android:id="@+id/garkom_ulasim"
+                    android:title="GARKOM ULAŞIM"  />
+                <item
+                    android:id="@+id/garkom_sanayi"
+                    android:title="GARKOM SANAYİ"  />
+            </menu>
+
+        </item>
+        <item
+            android:id="@+id/garkom_nasil_calisir"
+
+            android:title="GARKOM NASIL ÇALIŞIR ?" />
+        <item
+            android:id="@+id/isAriyorum"
+
+            android:title="İŞ ARIYORUM" />
+        <item
+            android:id="@+id/calisanAriyorum"
+
+            android:title="ÇALIŞAN ARIYORUM" />
+
+        <item
+            android:id="@+id/hakkimizda"
+            android:title="HAKKIMIZDA" />
+    </group>
+
+</menu>

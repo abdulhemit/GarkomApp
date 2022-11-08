@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.calisanAriyorumFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:layout_editor_absoluteX="121dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white">
+
+
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffff00"
+                android:src="@drawable/resim"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/imageAsci"
+                android:layout_width="250dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/asci"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/image" />
+
+            <Button
+                android:id="@+id/cagir1"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/buttonbackround_two"
+                android:text="ÇAĞIR"
+                android:layout_marginTop="15dp"
+                android:textColor="@color/black"
+                android:textStyle="italic"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/imageAsci" />
+
+            <ImageView
+                android:id="@+id/imageAsciyardimcisi"
+                android:layout_width="250dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="50dp"
+                android:src="@drawable/asciyardimcisi"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/cagir1" />
+
+            <Button
+                android:id="@+id/cagir2"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/buttonbackround_two"
+                android:text="ÇAĞIR"
+                android:layout_marginTop="15dp"
+                android:textColor="@color/black"
+                android:textStyle="italic"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/imageAsciyardimcisi" />
+
+            <ImageView
+                android:id="@+id/imageBarista"
+                android:layout_width="250dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="50dp"
+                android:src="@drawable/barista"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/cagir2" />
+
+            <Button
+                android:id="@+id/cagir3"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/buttonbackround_two"
+                android:text="ÇAĞIR"
+                android:layout_marginTop="15dp"
+                android:textColor="@color/black"
+                android:textStyle="italic"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/imageBarista" />
+
+            <ImageView
+                android:id="@+id/imageGarson"
+                android:layout_width="250dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="50dp"
+                android:src="@drawable/garson"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/cagir3" />
+
+            <Button
+                android:id="@+id/cagir4"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/buttonbackround_two"
+                android:text="ÇAĞIR"
+                android:textColor="@color/black"
+                android:textStyle="italic"
+                android:layout_marginTop="15dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/imageGarson" />
+
+            <ImageView
+                android:id="@+id/imageGarsonKomi"
+                android:layout_width="250dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="50dp"
+                android:src="@drawable/komi"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/cagir4" />
+
+            <Button
+                android:id="@+id/cagir5"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/buttonbackround_two"
+                android:text="ÇAĞIR"
+                android:layout_marginTop="15dp"
+                android:textColor="@color/black"
+                android:textStyle="italic"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/imageGarsonKomi" />
+
+
+            <ImageView
+                android:id="@+id/imageBulasik"
+                android:layout_width="250dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="50dp"
+                android:src="@drawable/bulasik"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/cagir5" />
+
+            <Button
+                android:id="@+id/cagir6"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/buttonbackround_two"
+                android:text="ÇAĞIR"
+                android:textColor="@color/black"
+                android:textStyle="italic"
+                android:layout_marginTop="15dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/imageBulasik" />
+
+
+            <ImageView
+                android:id="@+id/imageKasiyer"
+                android:layout_width="250dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="50dp"
+                android:src="@drawable/kasiyer"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/cagir6" />
+
+            <Button
+                android:id="@+id/cagir7"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:background="@drawable/buttonbackround_two"
+                android:text="ÇAĞIR"
+                android:textColor="@color/black"
+                android:textStyle="italic"
+                android:layout_marginTop="15dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/imageKasiyer" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

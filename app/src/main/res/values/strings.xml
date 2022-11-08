@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">GarkomKotlin</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hakkimizda">
+        GARKOM NEDİR ?
+Garkom işverenler ile çalışanları buluşturan ortak bir platformdur. Fakat bu platformun en önemli farkı işveren tarafından bakacak olursak işverenin evraki sorumluluklarını azaltması ve insan kaynakları gibi bir departmanı olmadığı halde kendi işletmesine uygun çalışanı bulabilmesi gibi avantajları vardır. Çalışan tarafından bakacak olursak garkom ile çalıştıkları süre boyunca asla işyerlerinde ödemeleri kalmayacaktır. Çünkü çalışanı işe çağırırken Garkom işverenden çalışanın ödemesini alır ve mesai bitiminde çalışanın uygulama hesabına ücretini aktadır. Kısaca garkom işletmelerin muhasebecisi çalışanların ise tek tıkla ulaşabildikleri kendi kurumsal kimliğidir.
+GARKOM HANGİ SORUNLARI ORTADAN KALDIRIYOR ?
+Garkomun ortadan kaldırdığı sorunları listelersek :
+1 - Günlük sigortasız çalışan çalıştırılması
+2 - Gerçekten alanında tecrübeli çalışanı bulmanın zor olması
+3 - Günlük işe alınan çalışanların kim olduğunu bilememek gasp , hırsızlık vb. durumların olması
+4 -  Acil ihtiyaç anlarında saatler içerisinde eleman bulamamak
+5 - Çalışanların işyerlerinden mesai bitiminde ücretlerini alamaması
+6 - Çalışanların ücretlerinin asgari ücret altı olması
+7- Mesai saati ücretlerinin hesaplanmaması
+8 - Çalışanların işe gelmemesi ( günlük işlerde ) işverenin zora düşmesi
+9 - Çalışanların işlerden özellikle kaytarması
+10  - İşverenlerin çalışanlara karşı tavır ve tutumları
+GARKOM BU SORUNLARI NASIL ÇÖZÜYOR ?
+Garkom ile bu sorunların çözümü oldukça basit örneğin bir işveren uygulamamız üzerinden deneyim puanına ve değerlendirme  puanına bakarak bir çalışanı işe çağırmak istediğinde uygulama üzerinden önce çalışana bildirim gider ve çalışanı Garkom telesekreteri arar işe gitmeyi kabul ettiğini işin detaylarını bildirir ve ardından çalışandan kabul ediyorum sesli mesajına onay vermesini ister hem uygulamadan hem de sesli mesajdan onay veren çalışan uygulama üzerinden hükümlülükleri kabul eder. (Ve işe gitmekten vazgeçerse bunu en az  3 saat öncesinden bildirmek zorunda olduğunu da kabul etmiş oluyor. Ve böylelikle çalışanın işe gelmemesi gibi durumların önüne geçilmiş oluyor. )  Ardından işveren çalışanın günlük ücretini ve uygulama komisyon ücretini  önden öder. Sonrasında çalışan işe geldiğinde uygulama üzerinden  mesaisini başlatmak için QR kodunu işverene okutturur. Böylelikle mesai başlar ve mesai bitiminde tekrar QR kodu okutması ile günlük ücreti hesabına yatmış olur. Böylelikle hem günlük ücretini zamanında almış olur hem de o günü kapsayan günlük sigortası yaptırılmış olur. Mesai bitimi üzerinden minimum 12 saat sonra işveren ile çalışan birbirlerini uygulama üzerinden puanlar bu puanlama göre  çalışan deneyim xp puanı kazanır hemde değerlendirme puanı kazanmış olur. İşveren ise değerlendirme puanı kazanır. Bu puanlama sistemi çalışanlar için Garkom üzerinde bir kariyer oluştururken işverenler için ise hem denetleme sağlamış olur ve zorbalık vb. durumların önüne geçilmiş olur. Olası mesai saati aşımı olduğu takdirde uygulama üzerinden mesai saati artırılır ve tekrar QR kod okututularak ekstra mesaiye başlanır ve bu ekstra mesainin bitiminde tekrar QR kod okutularak mesai ücreti çalışanın hesabına yatmış olur.
+ GARKOM  NEDEN  TERCİH EDİLMELİ ?
+Garkom kendi alanında çalışan ve işveren partneri olan tek firma konumundadır. Taksi bulmak  gibi eleman bulmanın basitliğini ve kaliteli hizmete ulaşmanın en kolay yolu Garkomu tercih etmekten geçiyor. Çalışanlar için ise hem kariyer yolcuğunu eğlenceli bir hale getiren Garkom ay sonu raporlar sunarak işverenlere aylık toplam çalışan masraflarını bildirir. Çalışanlara ise aylık kazançlarını toplam kaç saat çalışarak elde ettiklerini bildirir.
+    </string>
+    <string name="garkom_nasil_calisir">
+    GARKOM projesi temel esasta
+    insanların günübirlik işlerde sorunsuz çalışabilmesini ve çalışan haklarının sorunsuz bir şekilde karşılanmasını hedeflemekte.
+    İşveren tarafında ise belli bir ücret karşılığında alanında uzman ve GARKOM üzerinden çalışılarak  edinilmiş gerçek
+    deneyim puanlarına bakılarak kaliteli hizmet almayı sağlamakta ve bunun yanı sıra işveren ile çalışanlar arasındaki  ücret ödemesi elden değil uygulamamız üzerinden ödeme gerçekleştiriliyor.
+    Çalışanın uygulama üzerinden onayı alındıktan sonra işveren tarafı ödemeyi gerçekleştiriyor ( çalışan ücreti + garkom komisyon ücreti ) bu ödeme ile çalışanın çalıştığı gün için günlük sigorta işlemleri gerçekleştiriliyor. Ve çalışanın mesai başlangıcı için ve mesai bitişi için QR kodu okutulduğunda 2. okutmada ücreti çalışanın hesabına düşmüş oluyor. Bu şekilde çalışanların ücretleri minimum asgari ücret tutarında oluyor ve sigorta gibi temel haklarından yoksun kalınmamış oluyor. Mesai bitiminden minimum 12 saat sonrasında ise çalışan ve işveren birbirlerini uygulamamız üzerinden puanlıyor. Bu şekilde iki tarafında denetlenmesi gerçekleşmiş oluyor bu denetlemelerde puan girişi yapan tarafların  gizliliğine önem verildiği için değerlendirme sahiplerini gizlemiş oluyoruz. Garkomun genel  çalışma prensibi bu şekildedir.
+    </string>
+</resources>
